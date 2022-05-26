@@ -102,6 +102,7 @@ p {
   display: flex;
   gap: 22.3px;
   margin-bottom: 130px;
+  padding-left: 1px;
 }
 
 .social-media > li {

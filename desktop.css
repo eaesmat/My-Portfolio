@@ -1,0 +1,158 @@
+
+*::after ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  overflow-x: hidden;
+}
+
+.main {
+  background-image: none;
+}
+
+.background-adjust {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  min-width: 700px;
+  max-width: 779px;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: auto 662px;
+  justify-content: normal;
+}
+
+.details {
+  margin: 264px 0 251px 0;
+}
+
+.details > h1 {
+  margin-top: 0;
+}
+
+.details > p {
+  max-width: 566px;
+}
+
+.social-media {
+  grid-area: 1;
+  flex-direction: column;
+  color: white;
+  display: flex;
+  gap: 22.3px;
+  align-self: center;
+  padding: 0;
+  margin-left: 36px;
+  margin-right: 89px;
+  margin-top: 351px;
+  margin-bottom: 341px;
+}
+
+.background-desktop {
+  background-image: url(./svg/header-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+nav {
+  padding: 0;
+}
+
+.menu-bar {
+  display: flex;
+  margin: 27px 151px 27px 27px;
+  list-style-type: none;
+  gap: 32px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.hamburger > img {
+  display: none;
+}
+
+.main-logo {
+  margin-left: 154px;
+  margin-top: 26px;
+  padding: 0;
+}
+
+.separator {
+  margin-bottom: 24px;
+  border-color: #dfe1e6;
+}
+
+.popUp {
+  max-width: 1440px;
+  margin: 112px 142px 142px 142px;
+  padding: 24px;
+  border: 2px solid black;
+}
+
+.pop-up-desktop-1 {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 25px;
+  margin-top: 50px;
+}
+
+.pop-up-desktop-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pop-up-image {
+  margin-top: 0;
+  margin-bottom: 15px;
+  height: 100%;
+}
+
+.pop-up-h1 {
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #172b4d;
+}
+
+.pop-up-top {
+  height: auto;
+}
+
+.pop-up-languages {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #3c3a39;
+}
+
+.pop-up-description {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+}

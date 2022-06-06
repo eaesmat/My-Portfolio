@@ -184,11 +184,15 @@ p {
 }
 
 .content-data > ul {
-  display: flex;
+   display: flex;
   justify-content: space-between;
   gap: 12px;
   list-style: none;
   padding-inline-start: inherit;
+   
+   /* float: right;
+   justify-content: center;
+   align-items: center; */
 }
 
 .list2 {

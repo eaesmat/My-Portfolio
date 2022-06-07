@@ -315,3 +315,7 @@ p {
 .pop-up-button2 {
   list-style-type: none;
 }
+
+.form-section h2 {
+  background-color: red;
+}

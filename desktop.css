@@ -1,5 +1,6 @@
-
-*::after ::before {
+/* stylelint-disable csstree/validator */
+/* stylelint-disable declaration-colon-newline-after */
+* ::after ::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -65,6 +66,234 @@ body {
   background-position: right;
 }
 
+/* work section */
+
+.work {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.work-section {
+  margin: auto;
+  max-width: 1444px;
+}
+
+.work-1 {
+  margin-left: 153px;
+  margin-right: 153px;
+  margin-bottom: 130px;
+}
+
+.work-placeholder {
+  transition: transform 2s;
+}
+
+.work-placeholder:hover {
+  transform: scale(1.05);
+}
+
+.work1-visual {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-data > h3 {
+  margin: 0;
+}
+
+.work1-visual > h1 {
+  width: 315px;
+  text-align: end;
+}
+
+.work1-visual > .line {
+  flex: 1;
+  width: 794px;
+  margin: 0 24px 56px 24px;
+  align-self: self-end;
+}
+
+.work-display {
+  display: grid;
+  max-width: max-content;
+  margin: auto;
+  gap: 24px;
+  grid-template-columns: auto auto auto;
+}
+
+@media only screen and (max-width: 1170px) {
+  .work-display {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+.work1-btn {
+  margin-top: 36px;
+}
+
+.work1-button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 45px;
+}
+
+.work-2 {
+  background: none;
+  width: 369px;
+  height: 435px;
+  background-image: linear-gradient(
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 84.18%
+  ),
+    url(./svg/Placeholder-desktop14.svg);
+}
+
+.work-2:hover {
+  background-image: url(./svg/Placeholder-desktop14.svg);
+}
+
+.work2-content > h1 {
+  display: none;
+}
+
+.work2-content > h2 {
+  display: block;
+}
+
+.work2-content {
+  margin: 221px 16px 16px 16px;
+}
+
+.work-2:hover .work2-content {
+  display: none;
+}
+
+.work2-button {
+  display: none;
+}
+
+.work-2:hover .work2-button {
+  display: block;
+  margin-top: 373px;
+}
+
+.work-2:hover .work2-button button {
+  width: 100%;
+  height: 63px;
+}
+
+/* About me */
+
+.about-me-1 {
+  display: grid;
+  background: none;
+  grid-template-columns: auto 586px;
+  margin-top: 130px;
+  margin-bottom: 139px;
+  margin-right: 0;
+  width: auto;
+  gap: 146px;
+}
+
+.about-me-background {
+  background-image: url(./svg/illustration-about-me-desktop.svg);
+  width: 555px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.about-me1-content {
+  max-width: 566px;
+  margin-left: 142px;
+}
+
+.about-me-button {
+  padding: 12px;
+}
+
+.about-me1-separation {
+  margin-right: 142px;
+  margin-left: 142px;
+}
+
+/* About me 2 */
+
+.about-me-2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 206px;
+  margin-top: 146px;
+  padding-bottom: 146px;
+}
+
+.discussion {
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 35fr 65fr;
+  gap: 24px;
+  margin-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: auto;
+  max-width: 1163px;
+}
+
+.form-grid > h2 {
+  margin: 0;
+  padding-left: 135px;
+  height: auto;
+  text-align: left;
+}
+
+.form-button {
+  justify-content: left;
+  margin-left: 57px;
+}
+
+.email {
+  margin-top: 0;
+}
+
+.inputa {
+  display: flex;
+}
+
+.input1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.separator1 {
+  border: 1px solid #dbd8d7;
+  width: auto;
+  max-width: 298px;
+}
+
+.sm-two {
+  flex-direction: row;
+  margin: 0;
+}
+
+.separator-2 {
+  display: none;
+}
+
+/* .work1 content */
+
+.work1-content {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+/* Menu */
+
 nav {
   padding: 0;
 }
@@ -97,6 +326,7 @@ nav {
   border-color: #dfe1e6;
 }
 
+/* pop up */
 .popUp {
   max-width: 1440px;
   margin: 112px 142px 142px 142px;

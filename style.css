@@ -217,24 +217,23 @@ p {
 }
 
 .work1-button {
-  width: 125px;
-  padding-top: 10px;
-  background-color: #ff6b00;
-  font-family: "Inter", sans-serif;
-  font-size: 17px;
+  padding: 12px;
+  width: 161px;
+  background-color: rgb(255, 107, 0);
+  border: none;
+  color: white;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
+  font-size: 17px;
   line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: white;
-  margin-top: 15px;
-  height: 40px;
+  margin-top: 10px;
 }
 
 .work1-btn :hover {
-  background-color: #575757;
-  color: #ff6b00;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 .work-display {
@@ -325,8 +324,9 @@ p {
 }
 
 .work2-button :hover {
-  background-color: #575757;
-  color: #ff6b00;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 .about-me-section {
@@ -382,7 +382,7 @@ p {
 }
 
 .about-me-button {
-  padding-top: 12px;
+  padding: 12px;
   width: 161px;
   background-color: #ff6b00;
   border: none;
@@ -395,8 +395,9 @@ p {
 }
 
 .about-me-btn :hover {
-  background-color: #575757;
-  color: #ff6b00;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 .line2 {
@@ -559,8 +560,9 @@ p {
 }
 
 .form-button :hover {
-  background-color: #575757;
-  color: #ff6b00;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 .separator {

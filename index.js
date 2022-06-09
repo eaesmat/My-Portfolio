@@ -33,7 +33,7 @@ function displayContent() {
     // First Project
     name: 'Profesional Art Printing Data',
     discription: 'First A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry`s standard',
-    discriptionDesktop: 'Firsst Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    discriptionDesktop: 'Firsst Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry`s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     languages: ['html', 'bootstrap', 'Ruby'],
     reference: ['https://en.wikipedia.org/wiki/HTML', 'https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework', 'https://en.wikipedia.org/wiki/Ruby_(programming_language'],
   },
@@ -118,7 +118,7 @@ function displayContent() {
     languagePopup3.textContent = 'ruby on rails';
     const desktop1Popup = addElement('div', ['pop-up-desktop-1'], sectionPopup);
     const imagePopup = addElement('img', ['pop-up-image'], desktop1Popup);
-    imagePopup.setAttribute('src', 'svg/Snapshoot Portfolio.svg', 'alt', 'project-1 details');
+    imagePopup.setAttribute('src', 'svg/snapshoot-portfolio.svg', 'alt', 'project-1 details');
     const desktop2popup = addElement('div', ['pop-up-desktop-2'], desktop1Popup);
     const desktop2Para = addElement('p', ['pop-up-description'], desktop2popup);
     if (window.innerWidth < 768) {

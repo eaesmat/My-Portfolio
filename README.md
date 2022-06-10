@@ -35,8 +35,20 @@ Github
 ## Authors
 👤 Esmatullah Ahmadzai
 
+
 GitHub: @https://github.com/eaesmat
 LinkedIn: https://www.linkedin.com/in/esmatullah-ahmadzai-56bb9423b/
+## Contributors
+
+- GitHub: [@githubhandle](https://github.com/eudondian)
+- Twitter: [@twitterhandle](https://twitter.com/eudondian)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/esther-udondian-186849119/)
+
+  https://github.com/letarulinda
+  https://www.linkedin.com/in/linda-letaru-masia
+
+
+
 
 ### Contributing
 Contributions, issues, and feature requests are welcome!
@@ -48,6 +60,8 @@ Feel free to check the issues page.
 
 Feel free to check the issues page.
 Give a ⭐️ if you like this project!
+
+
 
 # Acknowledgments
 Hat tip to anyone whose code was used

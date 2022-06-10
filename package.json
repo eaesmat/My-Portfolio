@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "lighthouse": "^9.6.1"
+    "lighthouse": "^9.6.2"
   },
   "name": "my-portfolio",
   "description": "My Portfolio\r ## Built With\r 1. HTML\r 2. CSS\r 3. Linters\r 4. Git/Github\r Live Demo Link",

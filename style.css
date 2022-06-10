@@ -83,6 +83,14 @@ h2 {
   text-align: left;
 }
 
+h1:hover {
+  text-decoration: underline;
+}
+
+h2:hover {
+  color: #ff6b00;
+}
+
 p {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -788,13 +796,6 @@ p {
   text-align: center;
 }
 
-h1:hover {
-  text-decoration: underline;
-}
-
 .h2-color {
   color: black;
-}
-h2:hover {
-  color: #ff6b00;
 }

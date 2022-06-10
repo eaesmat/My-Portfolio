@@ -83,7 +83,7 @@ h2 {
   text-align: left;
 }
 
-h1:hover{
+h1:hover {
   text-decoration: underline;
 }
 
@@ -794,8 +794,4 @@ p {
 .form-popup-text {
   color: #c25100;
   text-align: center;
-}
-
-.h2-color {
-  color: black;
 }

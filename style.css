@@ -669,7 +669,7 @@ p {
 
 .pop-up-h1 {
   width: 259px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -695,7 +695,7 @@ p {
 .pop-up-language-li {
   border: 1px solid #979493;
   align-items: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -710,7 +710,7 @@ p {
 }
 
 .pop-up-description {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -732,7 +732,7 @@ p {
   width: 134px;
   background-color: #c25100;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -744,7 +744,7 @@ p {
   width: 159px;
   background-color: #c25100;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;

@@ -1,4 +1,4 @@
-function showContent() {
+function displayContent() {
   document.querySelector('.container').style.display = 'none';
   document.querySelector('.mobile-menu').style.display = 'block';
 }
@@ -20,7 +20,7 @@ function contactSection() {
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-  document.querySelector('.hamburger > img').addEventListener('click', showContent);
+  document.querySelector('.hamburger > img').addEventListener('click', displayContent);
   document.querySelector('.close').addEventListener('click', hideMenu);
   document.querySelector('.portfolio').addEventListener('click', portfolioSection);
   document.querySelector('.about').addEventListener('click', aboutSection);

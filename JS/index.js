@@ -26,4 +26,4 @@ window.addEventListener('DOMContentLoaded', () => {
   document.querySelector('.about').addEventListener('click', aboutSection);
   document.querySelector('.contact').addEventListener('click', contactSection);
 });
-// Pop up window 
+// Pop up window

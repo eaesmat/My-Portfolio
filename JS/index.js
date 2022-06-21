@@ -1,4 +1,6 @@
-function displayContent() {
+
+function showContent()
+{
   document.querySelector('.container').style.display = 'none';
   document.querySelector('.mobile-menu').style.display = 'block';
 }
@@ -22,7 +24,7 @@ function contactSection() {
 window.addEventListener('DOMContentLoaded', () => {
   document
     .querySelector('.hamburger > img')
-    .addEventListener('click', displayContent);
+    .addEventListener('click', showContent);
   document.querySelector('.close').addEventListener('click', closeMenu);
   document
     .querySelector('.portfolio')

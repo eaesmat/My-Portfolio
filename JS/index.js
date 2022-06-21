@@ -1,34 +1,28 @@
-
-function showContent()
-{
+function showContent() {
   document.querySelector('.container').style.display = 'none';
   document.querySelector('.mobile-menu').style.display = 'block';
 }
-function closeMenu() {
+function hideMenu() {
   document.querySelector('.container').style.display = 'block';
   document.querySelector('.mobile-menu').style.display = 'none';
 }
 function portfolioSection() {
-  closeMenu();
+  hideMenu();
   window.location = `${window.location.pathname}#portfolio`;
 }
 function aboutSection() {
-  closeMenu();
+  hideMenu();
   window.location = `${window.location.pathname}#about`;
 }
 function contactSection() {
-  closeMenu();
+  hideMenu();
   window.location = `${window.location.pathname}#contact`;
 }
 
 window.addEventListener('DOMContentLoaded', () => {
-  document
-    .querySelector('.hamburger > img')
-    .addEventListener('click', showContent);
-  document.querySelector('.close').addEventListener('click', closeMenu);
-  document
-    .querySelector('.portfolio')
-    .addEventListener('click', portfolioSection);
+  document.querySelector('.hamburger > img').addEventListener('click', showContent);
+  document.querySelector('.close').addEventListener('click', hideMenu);
+  document.querySelector('.portfolio').addEventListener('click', portfolioSection);
   document.querySelector('.about').addEventListener('click', aboutSection);
   document.querySelector('.contact').addEventListener('click', contactSection);
 });

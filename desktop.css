@@ -348,11 +348,7 @@ nav {
 .pop-up-image {
   margin-top: 0;
   margin-bottom: 15px;
-  height: 99%;
-  background: url(./png/Snapshoot\ Portfolio.png) no-repeat;
-  background-size: contain;
-  border:none;
-  width: 500px;
+  height: 90%;
   
 }
 .pop-up-h1 {
@@ -377,7 +373,7 @@ nav {
   letter-spacing: 0;
   text-align: left;
   color: #3c3a39;
-  margin-left: 100px;
+  
 }
 
 .pop-up-description {

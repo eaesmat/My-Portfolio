@@ -171,7 +171,7 @@ const showWorkPopup = (index) => {
   const imagePopup = addElement("img", ["pop-up-image"], desktop1Popup);
   imagePopup.setAttribute(
     "src",
-    "svg/snapshoot-portfolio.svg",
+    "./png/Snapshoot Portfolio.png",
     "alt",
     "project-1 details"
   );

@@ -671,11 +671,12 @@ p {
   width: 259px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 20px;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
   margin: 0;
+  margin-left: 30px;
 }
 
 .close-icon-2 {
@@ -690,6 +691,7 @@ p {
   display: flex;
   gap: 12px;
   padding-left: 0;
+  margin-left: 30px;
 }
 
 .pop-up-language-li {
@@ -705,10 +707,12 @@ p {
 }
 
 .pop-up-image {
-  width: 100%;
-  margin: 24px auto;
-  background: url(./png/Snapshoot\ Portfolio.png);
+  width: 80%;
+  height: 200px;
+  padding-left: 30px;
   
+
+
 }
 
 .pop-up-description {
@@ -718,6 +722,7 @@ p {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  margin-left: 30px;
 }
 
 .pop-up-buttons {
@@ -728,6 +733,7 @@ p {
   gap: 19px;
   width: 100%;
   padding: 0;
+  margin-left: 30px;
 }
 
 .pop-up-btn1 {
@@ -739,7 +745,7 @@ p {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  padding: 20px 12px 12px 12px;
+  padding: 10px
 }
 
 .pop-up-btn2 {

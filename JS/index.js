@@ -152,19 +152,19 @@ const showWorkPopup = (index) => {
   const languagePopup1 = addElement(
     'li',
     ['pop-up-language-li'],
-    languagePopups
+    languagePopups,
   );
   languagePopup1.textContent = 'html';
   const languagePopup2 = addElement(
     'li',
     ['pop-up-language-li'],
-    languagePopups
+    languagePopups,
   );
   languagePopup2.textContent = 'bootstrap';
   const languagePopup3 = addElement(
     'li',
     ['pop-up-language-li'],
-    languagePopups
+    languagePopups,
   );
   languagePopup3.textContent = 'ruby on rails';
   const desktop1Popup = addElement('div', ['pop-up-desktop-1'], sectionPopup);
@@ -173,7 +173,7 @@ const showWorkPopup = (index) => {
     'src',
     './png/Snapshoot Portfolio.png',
     'alt',
-    'project-1 details'
+    'project-1 details',
   );
   const desktop2popup = addElement('div', ['pop-up-desktop-2'], desktop1Popup);
   const desktop2Para = addElement('p', ['pop-up-description'], desktop2popup);

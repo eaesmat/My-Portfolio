@@ -35,7 +35,7 @@ header {
   padding: 12px 12px 12px 24px;
 }
 
-.main-logo > .logo {
+.main-logo>.logo {
   align-self: flex-end;
   text-decoration: none;
   color: white;
@@ -98,7 +98,7 @@ p {
   color: white;
 }
 
-.details > p {
+.details>p {
   max-width: 566px;
 }
 
@@ -108,7 +108,7 @@ p {
   margin-bottom: 130px;
 }
 
-.social-media > li {
+.social-media>li {
   list-style-type: none;
 }
 
@@ -133,7 +133,7 @@ p {
   gap: 24px;
 }
 
-.work1-visual > h1 {
+.work1-visual>h1 {
   font-family: "Crete Round", serif;
   font-size: 40px;
   font-style: normal;
@@ -155,7 +155,7 @@ p {
   gap: 12px;
 }
 
-.work-placeholder > img {
+.work-placeholder>img {
   width: 100%;
 }
 
@@ -164,7 +164,7 @@ p {
   margin: auto;
 }
 
-.content-data > h1 {
+.content-data>h1 {
   margin-top: 24px;
   font-family: "Crete Round", serif;
   font-size: 32px;
@@ -176,7 +176,7 @@ p {
   color: #091e42;
 }
 
-.content-data > p {
+.content-data>p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -187,7 +187,7 @@ p {
   color: #091e42;
 }
 
-.content-data > ul {
+.content-data>ul {
   display: flex;
   justify-content: space-between;
   gap: 12px;
@@ -200,7 +200,7 @@ p {
   padding: 12px;
 }
 
-.list1 > a {
+.list1>a {
   text-decoration: none;
   padding: 12px;
   text-align-last: center;
@@ -256,11 +256,11 @@ p {
   background-position-x: center;
 }
 
-.work2-content > * {
+.work2-content>* {
   padding: 0 12px 0 12px;
 }
 
-.work2-content > h1 {
+.work2-content>h1 {
   margin-top: 84px;
   font-family: "Crete Round", serif;
   font-size: 32px;
@@ -272,11 +272,11 @@ p {
   color: white;
 }
 
-.work2-content > h2 {
+.work2-content>h2 {
   display: none;
 }
 
-.work2-content > p {
+.work2-content>p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -358,7 +358,7 @@ p {
   align-self: center;
 }
 
-.about-me1-content > h1 {
+.about-me1-content>h1 {
   font-family: "Crete Round", serif;
   font-size: 72px;
   font-style: normal;
@@ -369,7 +369,7 @@ p {
   color: #ff6b00;
 }
 
-.about-me1-content > p {
+.about-me1-content>p {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -434,7 +434,7 @@ p {
   list-style: none;
 }
 
-.about-me-2 .topic > p {
+.about-me-2 .topic>p {
   font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -445,7 +445,7 @@ p {
   max-height: 100%;
 }
 
-.about-me-2 ul li > a {
+.about-me-2 ul li>a {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 200;
@@ -463,7 +463,7 @@ p {
   text-align: center;
 }
 
-.form-grid > h2 {
+.form-grid>h2 {
   flex: 1;
   margin: 120px 24px 73px 24px;
   position: static;
@@ -478,7 +478,7 @@ p {
   transition: transform 2s;
 }
 
-.form-grid > h2:hover {
+.form-grid>h2:hover {
   transform: translate(10%);
 }
 
@@ -516,7 +516,7 @@ p {
   margin: 14px 24px 24px 24px;
 }
 
-.input1 > input {
+.input1>input {
   flex: 1 1 auto;
   padding-right: 100px;
   border: none;
@@ -638,7 +638,7 @@ p {
   border-radius: 5px;
 }
 
-.input1 > label {
+.input1>label {
   display: none;
 }
 

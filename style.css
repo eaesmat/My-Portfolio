@@ -707,6 +707,8 @@ p {
 .pop-up-image {
   width: 100%;
   margin: 24px auto;
+  background: url(./png/Snapshoot\ Portfolio.png);
+  
 }
 
 .pop-up-description {

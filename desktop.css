@@ -38,11 +38,11 @@ body {
   margin: 264px 0 251px 0;
 }
 
-.details > h1 {
+.details>h1 {
   margin-top: 0;
 }
 
-.details > p {
+.details>p {
   max-width: 566px;
 }
 
@@ -97,16 +97,16 @@ body {
   flex-direction: row;
 }
 
-.content-data > h3 {
+.content-data>h3 {
   margin: 0;
 }
 
-.work1-visual > h1 {
+.work1-visual>h1 {
   width: 315px;
   text-align: end;
 }
 
-.work1-visual > .line {
+.work1-visual>.line {
   flex: 1;
   width: 794px;
   margin: 0 24px 56px 24px;
@@ -142,11 +142,9 @@ body {
   background: none;
   width: 369px;
   height: 435px;
-  background-image: linear-gradient(
-      180.45deg,
-      rgba(38,38,38,0)0.75%,
-      rgba(38,38,38,0.9)84.18%
-    ),
+  background-image: linear-gradient(180.45deg,
+      rgba(38, 38, 38, 0)0.75%,
+      rgba(38, 38, 38, 0.9)84.18%),
     url(./svg/Placeholder-desktop14.svg);
 }
 
@@ -154,11 +152,11 @@ body {
   background-image: url(./svg/Placeholder-desktop14.svg);
 }
 
-.work2-content > h1 {
+.work2-content>h1 {
   display: none;
 }
 
-.work2-content > h2 {
+.work2-content>h2 {
   display: block;
 }
 
@@ -245,7 +243,7 @@ body {
   max-width: 1163px;
 }
 
-.form-grid > h2 {
+.form-grid>h2 {
   margin: 0;
   padding-left: 135px;
   height: auto;
@@ -311,7 +309,7 @@ nav {
   text-align: center;
 }
 
-.hamburger > img {
+.hamburger>img {
   display: none;
 }
 

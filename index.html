@@ -149,6 +149,7 @@
        </div>
     </div>
   </section>
+  
   <div class="form-section" id="contact" >
     <a href="#form"></a>
     <div class="form-grid">
@@ -156,25 +157,25 @@
         I'm always interested in hearing about new projects,
          so if you'd like to chat please get in touch.
       </h2>
-      <form class="from1" id="#form" method="post" action="https://formspree.io/f/xgedqoye">
+      <form class="from1" id="form" method="post" action="https://formspree.io/f/xgedqoye">
         <ul class="inputs">
           <li>
             <ul class="inputa">
               <li class="input1">
                 <label for="name">name</label>
-                <input name="user-name" id="name" type="text" placeholder="Full Name" maxlength="30" required>
+                <input name="name" id="name" type="text" placeholder="Full Name" maxlength="30" required>
                 <div class="separator1"></div>
               </li>
               <li class="input1 email">
                 <label for="e-mail">email</label>
-                <input  name="user-email" id="e-mail" type="email" placeholder="Email address" required>
+                <input  name="email" id="email" type="email" placeholder="Email address" required>
                 <div class="separator1"></div>
               </li>             
             </ul>
           </li>
-          <li class="input1 input2"><textarea class="text-area" placeholder="Enter text here" maxlength="500" required></textarea></li>
+          <li class="input1 input2"><textarea class="text-area" placeholder="Enter text here" maxlength="500" required name="message" id="message" ></textarea></li>
           <li class="form-button">
-            <button class="submit" type="submit">Get In Touch</button>
+            <button class="submit" type="submit" id="btn" value="submit">Get In Touch</button>
           </li>
         </ul>
         <div class="form-popup">

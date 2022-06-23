@@ -252,3 +252,57 @@ submit.addEventListener('click', (event) => {
     event.preventDefault();
   }
 }, false);
+
+// Desktop validation
+const desktopForm = document.querySelector("#desktop-contact-form");
+const desktopSumbitBtn = document.querySelector(".desktop-contact-submit");
+const error = document.querySelectorAll(".error");
+desktopSumbitBtn.addEventListener("click", (event) => {
+  const email = desktopForm.elements["email"].value;
+  const isLowerCase = (str) => str === str.toLowerCase();
+  if (!isLowerCase(email)) {
+    event.preventDefault();
+    error[1].innerHTML = "Email should be lowecase";
+    error[1].classList.add("emailError");
+  }
+});
+
+// Mobile form validation
+const mobileForm = document.querySelector("#mobile-contact-form");
+const mobileSumbitBtn = document.querySelector(".mobile-contact-submit");
+mobileSumbitBtn.addEventListener("click", (event) => {
+  const email = mobileForm.elements["email"].value;
+  const isLowerCase = (str) => str === str.toLowerCase();
+  if (!isLowerCase(email)) {
+    event.preventDefault();
+    error[0].innerHTML = "Email should be lowecase";
+    error[0].class.add("emailError");
+  }
+});
+
+// Store form input to local storage
+const nameEl = desktopForm[0];
+const emailEl = desktopForm[1];
+const textareaEl = desktopForm[2];
+
+function onChanged(element, key) {
+  element.addEventListener("change", () => {
+    if (!localStorage.getItem("formObj")) {
+      localStorage.setItem("formObj", JSON.stringify({}));
+    }
+    const formObj = JSON.parse(localStorage.getItem("formObj"));
+    formObj[key] = element.value;
+    localStorage.setItem("formObj", JSON.stringify(formObj));
+  });
+}
+
+if (localStorage.getItem("formObj")) {
+  const formData = JSON.parse(localStorage.getItem("formObj"));
+  nameEl.value = formData.name || "";
+  emailEl.value = formData.email || "";
+  textareaEl.value = formData.text || "";
+}
+
+onChanged(nameEl, "name");
+onChanged(emailEl, "email");
+onChanged(textareaEl, "text");

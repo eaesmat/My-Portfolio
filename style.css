@@ -677,6 +677,7 @@ p {
   color: #172b4d;
   margin: 0;
   margin-left: 30px;
+  padding-top: 10px;
 }
 
 .close-icon-2 {
@@ -742,7 +743,7 @@ p {
   font-family: "Inter", sans-serif;
   font-size: 17px;
   font-style: normal;
-  font-weight: 200px;
+  font-weight: 200;
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
@@ -758,13 +759,12 @@ p {
   font-family: "Inter", sans-serif;
   font-size: 17px;
   font-style: normal;
-  font-weight: 200px;
+  font-weight: 200;
   line-height: 24px;
   letter-spacing: 0.03em;
   text-align: center;
   justify-self: center;
 }
-
 
 .pop-up-btn1::after {
   content: url(./svg/Icon-see\ live.svg);
@@ -776,7 +776,6 @@ p {
   content: url(./png/git.png);
   padding-left: 10px;
   display: inline-block;
-  
 }
 
 .A {

@@ -668,14 +668,16 @@ p {
 }
 
 .pop-up-h1 {
-  width: 259px;
+  width: 500px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
+  font-weight: 20;
+  font-size: 25px;
   line-height: 44px;
   color: #172b4d;
   margin: 0;
+  margin-left: 30px;
+  padding-top: 10px;
 }
 
 .close-icon-2 {
@@ -690,6 +692,7 @@ p {
   display: flex;
   gap: 12px;
   padding-left: 0;
+  margin-left: 30px;
 }
 
 .pop-up-language-li {
@@ -705,8 +708,9 @@ p {
 }
 
 .pop-up-image {
-  width: 100%;
-  margin: 24px auto;
+  width: 80%;
+  height: 300px;
+  padding-left: 30px;
 }
 
 .pop-up-description {
@@ -716,6 +720,7 @@ p {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  margin-left: 30px;
 }
 
 .pop-up-buttons {
@@ -726,42 +731,50 @@ p {
   gap: 19px;
   width: 100%;
   padding: 0;
+  margin-left: 30px;
 }
 
 .pop-up-btn1 {
-  width: 134px;
-  background-color: #c25100;
-  color: #fff;
+  width: 150px;
+  height: 50px;
+  color: white;
+  border: #ff6b00;
+  background-color: #ff6b00;
   font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
   font-size: 17px;
+  font-style: normal;
+  font-weight: 200;
   line-height: 24px;
-  padding: 20px 12px 12px 12px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  justify-self: center;
 }
 
 .pop-up-btn2 {
-  width: 159px;
-  background-color: #c25100;
-  color: #fff;
+  width: 150px;
+  height: 50px;
+  color: white;
+  border: #ff6b00;
+  background-color: #ff6b00;
   font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
   font-size: 17px;
+  font-style: normal;
+  font-weight: 200;
   line-height: 24px;
-  padding: 0 9px 0 9px;
-  height: 100%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  justify-self: center;
 }
 
 .pop-up-btn1::after {
-  content: url(./png/Icon-seelive.png);
-  padding-left: 15px;
+  content: url(./svg/Icon-see\ live.svg);
+  padding-left: 10px;
   display: inline-block;
 }
 
 .pop-up-btn2::after {
-  content: url(./png/IconGitHub.png);
-  padding-left: 15px;
+  content: url(./png/git.png);
+  padding-left: 10px;
   display: inline-block;
 }
 

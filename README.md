@@ -34,10 +34,12 @@ Github
 
 ## Authors
 👤 Esmatullah Ahmadzai
+ [@github account](https://github.com/eaesmat)
+ [@LinkedIn Account](https://www.linkedin.com/in/esmatullah-ahmadzai-56bb9423b/)
 
+👤 Tuyishimire Eric
+ [@github account](https://github.com/TuyishimireEric)
 
-GitHub: @https://github.com/eaesmat
-LinkedIn: https://www.linkedin.com/in/esmatullah-ahmadzai-56bb9423b/
 ## Contributors
 
 - GitHub: [@githubhandle](https://github.com/eudondian)

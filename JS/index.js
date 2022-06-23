@@ -247,3 +247,8 @@ emailForm.addEventListener('input', () => {
     popUpForm.style.display = 'none';
   }
 });
+submit.addEventListener('click', (event) => {
+  if (/[A-Z]/.test(emailForm.value)) {
+    event.preventDefault();
+  }
+}, false);

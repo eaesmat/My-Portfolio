@@ -279,30 +279,3 @@ mobileSumbitBtn.addEventListener("click", (event) => {
     error[0].class.add("emailError");
   }
 });
-
-// Store form input to local storage
-const nameEl = desktopForm[0];
-const emailEl = desktopForm[1];
-const textareaEl = desktopForm[2];
-
-function onChanged(element, key) {
-  element.addEventListener("change", () => {
-    if (!localStorage.getItem("formObj")) {
-      localStorage.setItem("formObj", JSON.stringify({}));
-    }
-    const formObj = JSON.parse(localStorage.getItem("formObj"));
-    formObj[key] = element.value;
-    localStorage.setItem("formObj", JSON.stringify(formObj));
-  });
-}
-
-if (localStorage.getItem("formObj")) {
-  const formData = JSON.parse(localStorage.getItem("formObj"));
-  nameEl.value = formData.name || "";
-  emailEl.value = formData.email || "";
-  textareaEl.value = formData.text || "";
-}
-
-onChanged(nameEl, "name");
-onChanged(emailEl, "email");
-onChanged(textareaEl, "text");

@@ -1,6 +1,7 @@
 // Form input to localStorage
 
 // function getInTouch(e)
+let form;
 form.addEventListener('submit', () => {
   const formInput = {
     name: document.getElementById('name').value,

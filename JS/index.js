@@ -252,30 +252,3 @@ submit.addEventListener('click', (event) => {
     event.preventDefault();
   }
 }, false);
-
-// Desktop validation
-const desktopForm = document.querySelector("#desktop-contact-form");
-const desktopSumbitBtn = document.querySelector(".desktop-contact-submit");
-const error = document.querySelectorAll(".error");
-desktopSumbitBtn.addEventListener("click", (event) => {
-  const email = desktopForm.elements["email"].value;
-  const isLowerCase = (str) => str === str.toLowerCase();
-  if (!isLowerCase(email)) {
-    event.preventDefault();
-    error[1].innerHTML = "Email should be lowecase";
-    error[1].classList.add("emailError");
-  }
-});
-
-// Mobile form validation
-const mobileForm = document.querySelector("#mobile-contact-form");
-const mobileSumbitBtn = document.querySelector(".mobile-contact-submit");
-mobileSumbitBtn.addEventListener("click", (event) => {
-  const email = mobileForm.elements["email"].value;
-  const isLowerCase = (str) => str === str.toLowerCase();
-  if (!isLowerCase(email)) {
-    event.preventDefault();
-    error[0].innerHTML = "Email should be lowecase";
-    error[0].class.add("emailError");
-  }
-});

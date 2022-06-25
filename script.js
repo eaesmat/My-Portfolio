@@ -1,7 +1,7 @@
 // Form input to localStorage
 
 // function getInTouch(e)
-const form = document.getElementById('form');
+
 form.addEventListener('submit', () => {
   const formInput = {
     name: document.getElementById('name').value,
@@ -14,7 +14,7 @@ form.addEventListener('submit', () => {
 function inputDisplay() {
   if (localStorage.getItem('formInput')) {
     const {
-      name,
+      
       email,
       textmessage,
     } = JSON.parse(localStorage.getItem('formInput'));
